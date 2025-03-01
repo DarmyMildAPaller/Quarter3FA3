@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jollibee Order Randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <img src="https://i.pinimg.com/736x/d3/18/3c/d3183ce029fbd4216d06a4075a174793.jpg" alt="Mang Inasal Logo">
+    <h1>Mang Inasal Best Selling Orders Randomizer</h1>
+    <button onclick="generateData()">Generate New Order</button><br><br>
+
+    <div class="container">
+        <div class="grid">
+            <div class="box" id="chicken-box">
+                <b>Chicken Inasal</b>
+                <hr>
+                <p id="chicken">-</p>
+            </div>
+            <div class="box" id="halohalo-box">
+                <b>Halo-halo</b>
+                <hr>
+                <p id="steak">-</p>
+            </div>
+            <div class="box" id="palabok-box">
+                <b>Palabok</b>
+                <hr>
+                <p id="spag">-</p>
+            </div>
+        </div>
+
+        <p><b>The best seller for this week:</b> <span id="item">-</span></p>
+        <p><b>The initial of the first costumer of the day:</b> <span id="letter">-</span></p>
+        <p><b>Preparation and serving time:</b> <span id="time">-</span></p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
